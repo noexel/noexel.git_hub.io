@@ -5,7 +5,7 @@ tg.expand();
 tg.MainButton.textColor = 'FFFFFF';
 tg.MainButtonc.color = '#1676E7';
 
-tg.MainButton.show()
+tg.MainButton.show();
 tg.MainButton.setText('Добро пожаловать!');
 
 let usercard = document.getElementById('usercard');
