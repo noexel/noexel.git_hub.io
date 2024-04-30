@@ -18,6 +18,10 @@ body{
 }
 
 .item {
+    width: 353px;
+    height: 52px;
+    display: inline-block;
+    border: none;
     background: #111111;
     text-align: left;
     border-radius: 15px;
