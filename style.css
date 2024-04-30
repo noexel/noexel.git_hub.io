@@ -18,7 +18,9 @@ body{
 }
 
 .item {
-    text-align: center;
+    background: #111111;
+    text-align: left;
+    border-radius: 15px;
 }
 
 .btn {
