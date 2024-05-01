@@ -30,3 +30,7 @@ btn6.addEventListener('clcik', function(){
     tg.expand();
 
 });
+
+Telegram.WebApp.onEvent('MainButtonClicked', function(){
+    tg.sendData(item);
+});
