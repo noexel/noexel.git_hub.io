@@ -1,22 +1,17 @@
 let tg = window.Telegram.WebApp;
 
-tg.expand();
+let item = '';
 
-tg.MainButton.textColor = "#FFFFFF";
-tg.MainButton.Color = "#1676E7";
-tg.MainButton.setText("Reload Page");
-tg.MainButton.show();
+let btn1 = document.getElementById('btn1');
+let btn2 = document.getElementById('btn2');
+let btn3 = document.getElementById('btn3');
+let btn4 = document.getElementById('btn4');
+let btn5 = document.getElementById('btn5');
+let btn6 = document.getElementById('btn6');
+let btn7 = document.getElementById('btn7');
+let btn8 = document.getElementById('btn8');
 
-tg.MainButton.notificationOccurred('success');
+btn1.addEventListener('clcik', function(){
+    tg.PopupParams.title('Уведомление!');
 
-
-
-let usercard = document.getElementById('usercard');
-
-let p = document.createElement('p');
-
-p.innerText = `${tg.initDataUnsafe.user.first_name}
-${tg.initDataUnsafe.user.last_name}
-${tg.initDataUnsafe.user.photo_url}`;
-
-usercard.appendChild(p);
+});
