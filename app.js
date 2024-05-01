@@ -26,7 +26,7 @@ btn2.addEventListener('click', function(){
 
 btn3.addEventListener('click', function(){
     
-    tg.HapticFeedback.notificationOccurred(success);
+    tg.HapticFeedback.selectionChanged();
 
 });
 
