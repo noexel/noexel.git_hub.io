@@ -3,46 +3,35 @@ body{
     padding: 0px;
     font-size: 14px;
     color: var(--tg-theme-text-color);
-    background: var(--tg-theme-bg-color);
+    background: black;
 
 }
 
 .container {
-    max-width: 353px;
+
+    max-width: 373px;
 }
 
-.inner {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 353px;
-}
 
-.item {
-    width: 353px;
-    height: 52px;
-    display: inline-block;
-    border: none;
-    background: #111111;
-    text-align: left;
-    border-radius: 15px;
-}
+
 
 .btn {
-    display: inline-block;
-    border: none;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 153px;
-    padding-right: 153px;
-    background:  #1676E7;
-    border-radius: 15px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: system-ui, -apple-system;
     
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 373px;
+    height: 51px;
+    color: white;
+    background: #1676E7;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-    transition: background .2s ease-in-out;
+    transition: background .15s linear;
 }
 
 .usercard {
@@ -50,5 +39,8 @@ body{
 }
 
 .btn:hover {
-    background: #1157A8;
+
+    background-color: #0B3B73;
+    color: hsl(0, 0%, 50%);    
 }
+
