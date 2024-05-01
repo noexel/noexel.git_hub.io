@@ -14,13 +14,13 @@ let btn8 = document.getElementById('btn8');
 
 btn1.addEventListener('click', function(){
     
-    tg.PopupParams.title('Уведомление вызвано!');
+    tg.PopupParams(title);
 
 });
 
 btn2.addEventListener('click', function(){
     
-    tg.PopupButtons.type.default('Разрешение');
+    tg.PopupButtons.type('default');
 
 });
 
