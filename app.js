@@ -13,19 +13,19 @@ let btn8 = document.getElementById('btn8');
 
 
 
-btn4.addEventListener('clcik', function(){
+btn4.addEventListener('click', function(){
     
     tg.MainButton.hide();
 
 });
 
-btn5.addEventListener('clcik', function(){
+btn5.addEventListener('click', function(){
     
     tg.MainButton.show();
 
 });
 
-btn6.addEventListener('clcik', function(){
+btn6.addEventListener('click', function(){
     
     tg.expand();
 
