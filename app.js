@@ -7,7 +7,7 @@ tg.MainButton.Color = "#1676E7";
 tg.MainButton.setText("Reload Page");
 tg.MainButton.show();
 
-tg.MainButton.notificationOccurred(success);
+tg.MainButton.notificationOccurred('success');
 
 
 
