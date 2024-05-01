@@ -12,6 +12,23 @@ let btn7 = document.getElementById('btn7');
 let btn8 = document.getElementById('btn8');
 
 
+btn1.addEventListener('click', function(){
+    
+    tg.PopupParams.title('Уведомление вызвано!');
+
+});
+
+btn2.addEventListener('click', function(){
+    
+    tg.PopupButtons.type.default('Разрешение');
+
+});
+
+btn3.addEventListener('click', function(){
+    
+    tg.notificationOccurred(success);
+
+});
 
 btn4.addEventListener('click', function(){
     
@@ -31,6 +48,23 @@ btn6.addEventListener('click', function(){
 
 });
 
+btn7.addEventListener('click', function(){
+    
+    tg.BackButton.show();
+
+});
+
+btn8.addEventListener('click', function(){
+    
+    tg.BackButton.hide();
+
+});
+
+
+
+
+
 Telegram.WebApp.onEvent('MainButtonClicked', function(){
     tg.sendData(item);
 });
+
