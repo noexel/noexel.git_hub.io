@@ -9,7 +9,7 @@ body{
 
 .container {
 
-    max-width: 373px;
+    max-width: 353px;
 }
 
 
@@ -21,7 +21,7 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 373px;
+    width: 353px;
     height: 51px;
     color: white;
     background: #1676E7;
