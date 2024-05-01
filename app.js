@@ -11,7 +11,22 @@ let btn6 = document.getElementById('btn6');
 let btn7 = document.getElementById('btn7');
 let btn8 = document.getElementById('btn8');
 
-btn1.addEventListener('clcik', function(){
-    tg.PopupParams.title('Уведомление!');
+
+
+btn4.addEventListener('clcik', function(){
+    
+    tg.MainButton.hide();
+
+});
+
+btn5.addEventListener('clcik', function(){
+    
+    tg.MainButton.show();
+
+});
+
+btn6.addEventListener('clcik', function(){
+    
+    tg.expand();
 
 });
