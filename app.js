@@ -12,13 +12,9 @@ let btn7 = document.getElementById('btn7');
 let btn8 = document.getElementById('btn8');
 
 
-tg.onEvent('backButtonClicked', tg.HapticFeedback.selectionChanged());
-
-
-
 btn1.addEventListener('click', function(){
     
-    tg.PopupParams(title);
+    tg.PopupParams.title('Уведомление!');
 
 });
 
@@ -30,7 +26,7 @@ btn2.addEventListener('click', function(){
 
 btn3.addEventListener('click', function(){
     
-    tg.HapticFeedback.notificationOccurred.success();
+    tg.HapticFeedback.selectionChanged();
 
 });
 
