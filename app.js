@@ -2,6 +2,11 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
+tg.MainButton.show();
+tg.MainButton.setText("Reload Page");
+tg.MainButton.textColor = "#FFFFFF";
+tg.MainButton.Color = "#1676E7";
+
 let usercard = document.getElementById('usercard');
 
 let p = document.createElement('p');
