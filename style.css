@@ -133,6 +133,7 @@ basket {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 64px;
+    max-width: 100%;
 }
 
 
