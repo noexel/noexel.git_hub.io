@@ -70,6 +70,7 @@ body {
 
 .nav_button {
 
+    color: #black;
     cursor: pointer;
     display: flex;
     padding-left: 12px;
