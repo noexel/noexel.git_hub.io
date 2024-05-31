@@ -11,7 +11,7 @@
 
 }
 
-var(--tg-color-scheme): #f2f2f2;
+var(--tg-theme--bg-color): #f2f2f2;
 
 body {
     padding: 0;
