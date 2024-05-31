@@ -2,6 +2,9 @@ document.querySelector('#nav_liquid').onclick = sort_liquid;
 document.querySelector('#nav_pod').onclick = sort_pod;
 document.querySelector('#nav_hqd').onclick = sort_hqd;
 
+let tg = window.Telegram.WebApp;
+
+tg.expand()
 
 let elems = document.querySelectorAll('.card');
 
